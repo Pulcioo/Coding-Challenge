@@ -1,0 +1,76 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+*{
+  font-family: arial;
+  box-sizing: border-box;
+  margin: 0
+}
+
+.container{
+  width: 1000px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 50px
+}
+
+header{
+  text-align: center;
+  padding: 100px 0 5px;
+
+}
+
+header > span{
+  color: lime;
+  font-size: 30px;
+}
+
+.navigation{
+  text-align: center;
+  height: 30px;
+  background-color: lime;
+  margin: 0 100px;
+  padding-top: 6px
+}
+
+h2{
+  color: white
+}
+
+.list{
+  margin: 25px 0 25px 100px;
+
+}
+
+.list > span{
+  color: white;
+  display: block;
+  line-height: 25px
+}
+
+.list > .charge1{
+  background-color: orange;
+  width: 320px;
+  height: 25px;
+  border-radius: 10px
+}
+
+.list > .charge2{
+  background-color: green;
+  width: 480px;
+  height: 25px;
+  border-radius: 10px
+}
+
+.list > .charge3{
+  background-color: red;
+  width: 150px;
+  height: 25px;
+  border-radius: 10px
+}
